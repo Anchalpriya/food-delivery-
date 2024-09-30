@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Online Food Delivery Service in India | MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="https://images.unsplash.com/photo-1591969721202-9ad8981cf40b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZCUyMGxvZ298ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+                alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">Welcome to GOLD kitchen</h1>
+        <p>Discover the ease and joy of food delivery with gold kitchen.We're here to make your dining experience
+            convenint ,delicious and memorable .We are passionate about delivering the freshest,most delicious meals
+            right to your doorstep</p>
+            <h1 class="c-primary">ORDER NOW AND GET 30% OFF ON THE FIRST ORDER AND FREE DELIVERY &#128293&#9996</h1>
+        <button class="btn"><a href="order.html">OUR MENU</a></button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">OUR HIGHLIGHTS</h1>
+        <div id="services">
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1495147466023-ac5c588e2e94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZvb2QlMjBjYXRlcmluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                <h2 class="h-secondary center">Customer diet is in our top priority</h2>
+                <p class="center"></p>
+            </div>
+            <div class="box">
+                <img src="https://images.unsplash.com/photo-1624137527136-66e631bdaa0e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJveHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                <h2 class="h-secondary center">Bulk Ordering for any function</h2>
+                <p class="center"></p>
+            </div>
+            <div class=" box">
+                <img src="https://plus.unsplash.com/premium_photo-1683983983955-fb43ce4f0d9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Zm9vZCUyMG9yZGVyaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                    alt="">
+                <h2 class="h-secondary center">Eco Friendly and good quality products</h2>
+                <p class="center"></p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="https://images.unsplash.com/photo-1559526323-cb2f2fe2591b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGNsaWVudCUyMHBob3RvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                    alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="https://media.istockphoto.com/id/903568822/photo/call-center-workers.webp?b=1&s=170667a&w=0&k=20&c=J9tGi97-6F5pRPj9yskpLHq4JiWE6NovQQf5DiA8AxA="
+                    alt="Our Client">
+            </div>
+
+            <div class="client-item">
+                <img src="https://media.istockphoto.com/id/1135381173/photo/portrait-of-a-young-man-outdoors-smiling.webp?b=1&s=170667a&w=0&k=20&c=oT6Gjsk1U-5xUsKGitxAGQBuDXjkN8ImV2ynMcXjGv4="
+                    alt="Our Client">
+            </div>
+            <div class="client-item">
+                <img src="https://images.unsplash.com/photo-1557804483-ef3ae78eca57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNsaWVudCUyMHBob3RvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                    alt="Our Client">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.GOLDkitchen.com. All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>
