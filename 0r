@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("https://cdn.pixabay.com/photo/2017/08/10/06/58/cup-2619216_640.jpg");
+            color: white;
+            display: inline;
+            height: 2000px;
+            padding: 22px;
+            margin: 10px;
+            
+
+        }
+
+
+        #services {
+            margin: 10px;
+            display: flex;
+        }
+
+        #services .box {
+            border: 2px solid brown;
+            padding: 30px;
+            margin: 10px 10px;
+            border-radius: 15px;
+            background: #8d8a8a;
+            margin-bottom: 15px;
+            height: 400px;
+            width: 500px;
+        }
+
+
+        #services .box img {
+            height: 300px;
+            /*margin: auto;*/
+            display: block;
+        }
+
+        .big {
+            font-size: 50px;
+            text-align: center;
+            color: white;
+            border-radius: 15px;
+        }
+
+        .box {
+            height: auto;
+            width: auto;
+            border-radius: 15px;
+        }
+
+        .btn {padding: 6px 25px;
+            border: 2px solid white;
+            background-color: rgb(22, 22, 22);
+            color: white;
+            margin: 20px;
+            font-size: 40px;
+            border-radius: 15px;
+            cursor: pointer;
+            
+            
+        }
+
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .button{
+            align-self: center;
+            padding: 6px 25px;
+            border: 2px solid rgb(19, 11, 11);
+            background-color: yellow;
+            color:black;
+            margin: 20px;
+            font-size: 40px;
+            border-radius: 15px;
+            cursor: pointer;
+            width: 600px;
+            align-content: center;
+        }
+        .button a {
+            color: rgb(19, 18, 18);
+            text-decoration: none;
+            align-self: center;
+        }
+        h2.h-secondarycenter{
+            color:black;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="big"> OTHER RECCOMENDED RESTURANTS NEARBY </h1>
+    <section id="services-container">
+
+        <div id="services">
+            <div class="box">
+                <img src="https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="">
+                <h2 class="h-secondarycenter">STARTBUCKS</h2>
+                <p class="center"></p>
+                <button class="btn"><a href="order.html">select</a></button>
+            </div>
+            <div class="box">
+                <img src="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="">
+                <h2 class="h-secondarycenter">DOMINO'S</h2>
+                <p class="center"></p>
+                <button class="btn"><a href="order.html">select</a></button>
+            </div>
+            <div class=" box">
+                <img src="https://images.pexels.com/photos/776538/pexels-photo-776538.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="">
+                <h2 class="h-secondarycenter">DREAM CAFEE</h2>
+                <p class="center"></p>
+                <button class="btn"><a href="order.html">select</a></button>
+            </div>
+            <br>
+        </div>
+
+    </section> <br>
+    <button class="button"><a href="tk.html">order confirmation</a></button>
+</body>
+
+</html>
