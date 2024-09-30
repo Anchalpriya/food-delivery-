@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <style>
+        body {
+            background-image: url("https://images.pexels.com/photos/3825307/pexels-photo-3825307.jpeg?auto=compress&cs=tinysrgb&w=600");
+            color: white;
+            font-size: 30px;
+            font-family: "Audiowide", sans-serif;
+            text-align: center;
+        }
+
+        
+        h1.small{
+            font-size: 30px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+        border: 2px solid white;
+        margin: 30px 10px;
+        padding: 35px;
+        
+        border-radius: 25px;
+        text-align: center;
+
+    }
+    p.cs{
+        text-align: center;
+
+    }
+    h1.font-effect-neon{
+        text-align: center;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <h1 class="font-effect-neon">THANK YOU FOR VISITING OUR RESTURANT</h1>
+    <h1 class="small">YOUR ORDER WILL BE DELIVERED TO YOU SOON&#9996</h1>
+    <p class="cs">for more deatails!!!!</p>
+    <p class="cs"> Heres our resturant contact details....</p>
+    <p class="cs">mobile: 3456789012</p>
+    <p class="cs">email:goldkitchen562@gmail.com</p>
+    <p class="cs">address: pari chowk greater noida u.p</p>
+</div>
+</body>
+
+</html>
