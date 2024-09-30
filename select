@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,
+			initial-scale=1.0" />
+    <STyle>
+        body {
+            background-image: url("https://images.pexels.com/photos/3334452/pexels-photo-3334452.jpeg?auto=compress&cs=tinysrgb&w=600");
+            padding: 22px;
+            margin: 10px;
+            font-size: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h1.price {
+            text-align: center;
+            text-decoration: dotted;
+            color: antiquewhite;
+
+        }
+
+        .pay-now-btn {
+            padding: 6px 20px;
+            border: 2px solid white;
+            background-color: rgb(26, 26, 9);
+            color: white;
+            margin: 17px;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .card-details {
+            font-size: 30px;
+            color: rgb(237, 231, 229);
+        }
+        .pay-now-btn a {
+            color: darkorange;
+            text-decoration: none;
+        }
+
+    </STyle>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-content">
+            <p class="text"></p>
+        </div>
+
+        <div class="centre-content">
+            <h1 class="price">PAYMENT MODE&#128178</h1>
+            <p class="course">
+
+            </p>
+        </div>
+
+        <div class="last-content">
+            <button  type="button "  class="pay-now-btn " > <a href="address.html">Apply Coupons</a>
+                
+            </button>
+            <button type="button" class="pay-now-btn"> <a href="address.html">Pay with Netbanking</a>
+                
+            </button>
+            <button type="button" class="pay-now-btn"><a href="address.html">Cash on Delivery &#128181&#128181</a>
+            
+            </button>
+
+
+        </div>
+
+        <div class="card-details">
+            <p>Pay using Credit or Debit card&#128179&#128179</p>
+
+            <div class="card-number">
+                <label> Card Number </label>
+                <input type="password" class="" placeholder="##########" />
+            </div>
+            <br />
+            <div class="date-number">
+                <label> Expiry Date </label>
+                <input type="date" class="date-number-field" placeholder="DD-MM-YY" />
+            </div>
+
+            <div class="cvv-number">
+                <label> CVV number </label>
+                <input type="text" class="cvv-number-field" placeholder="xxx" />
+            </div>
+            <div class="nameholder-number">
+                <label> Card Holder name </label>
+                <input type="text" class="card-name-field" placeholder="Enter your Name" />
+            </div>
+            <button type="submit" class="pay-now-btn"> <a href="address.html">submit</a>
+                
+            </button>
+            <button type="reset" class="pay-now-btn"> <a href=""> reset</a>
+            
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
