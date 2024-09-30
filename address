@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<STYle>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('https://images.unsplash.com/photo-1432821596592-e2c18b78144f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YWRkcmVzcyUyMGluJTIwZ3JleXxlbnwwfHwwfHx8MA%3D%3D');
+
+    }
+
+    .btn {
+        padding: 6px 25px;
+        border: 2px solid white;
+        background-color: rgb(17, 15, 15);
+        color: white;
+        margin: 20px;
+        font-size: 30px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .btn a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+        color: rgb(8, 8, 7);
+        font-size: 40px;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+        color: white;
+        background-color: rgb(11, 9, 12);
+    }
+</STYle>
+
+<body>
+
+
+    <div class="container">
+        <h1>CUSTOMERS ADDRESS</h1>
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="NAME" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="EMAIL" placeholder="Enter your Email">
+            </div>
+            <div class="form-group">
+                <input type="number" name="LOCALITY" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="PHONE NUMBER" placeholder="Enter your number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="LOCATION" placeholder="Enter your Locatiom">
+            </div>
+
+
+            <button class="btn"> <a href="or.html">SUBMIT</a></button>
+            <button class="btn"><a href="">RESET</a></button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
